@@ -61,7 +61,7 @@ public class StudentResourceImpl extends BaseStudentResourceImpl{
 			message = studentObject.get("message");
 		}};
 	}
-	
+	 
 	@Autowired
 	private Student student;
 	
