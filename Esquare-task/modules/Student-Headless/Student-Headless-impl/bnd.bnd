@@ -1,0 +1,3 @@
+Bundle-Name: Student-Headless-impl
+Bundle-SymbolicName: com.demo.student.impl
+Bundle-Version: 1.0.0

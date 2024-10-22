@@ -1,0 +1,6 @@
+Bundle-Name: Student-Headless-api
+Bundle-SymbolicName: com.demo.student.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.demo.student.dto.v1_0,\
+	com.demo.student.resource.v1_0

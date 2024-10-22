@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:Student-Headless:Student-Headless-api")
+	compile project(":modules:Student-Builder:Student-Builder-api")
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	implementation group: 'org.springframework', name: 'org.springframework.beans', version: '3.2.2.RELEASE'
+	
+
+	restBuilder group: "com.liferay", name: "com.liferay.portal.tools.rest.builder", version: "1.0.222"
+}
+
+group = "com.demo.student"

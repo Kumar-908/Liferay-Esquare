@@ -1,0 +1,10 @@
+Bundle-Name: Student-Builder-api
+Bundle-SymbolicName: com.demo.example.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.demo.example.exception,\
+	com.demo.example.model,\
+	com.demo.example.service,\
+	com.demo.example.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../Student-Builder-service/service.xml

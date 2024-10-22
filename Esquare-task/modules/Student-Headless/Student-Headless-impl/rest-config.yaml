@@ -1,0 +1,7 @@
+apiDir: "../Student-Headless-api/src/main/java"
+apiPackagePath: "com.demo.student"
+application:
+    baseURI: "/Student-Headless"
+    className: "StudentHeadlessApplication"
+    name: "StudentHeadless"
+author: "ADMIN"
