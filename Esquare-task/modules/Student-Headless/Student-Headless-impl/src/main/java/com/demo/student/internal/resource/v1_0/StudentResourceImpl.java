@@ -2,6 +2,7 @@ package com.demo.student.internal.resource.v1_0;
 
 
 
+import com.demo.example.model.Student;
 import com.demo.example.service.StudentLocalServiceUtil;
 
 import com.demo.student.resource.v1_0.StudentResource;
@@ -40,7 +41,7 @@ public class StudentResourceImpl extends BaseStudentResourceImpl {
 		JSONObject studentObject = JSONFactoryUtil.createJSONObject();
 		JSONArray dataObject = JSONFactoryUtil.createJSONArray();
 		
-		for(student  entry : studentEntity) {
+		for(Student  entry : studentEntity) {
 			JSONObject studentSingleObject = JSONFactoryUtil.createJSONObject();
 			studentSingleObject.put("id", entry.getId());
 			studentSingleObject.put("name", entry.getName());
